@@ -33,7 +33,7 @@ body {
 `;
 
 for await (const req of server) {
-  if (req.url === '/bundle.js') {
+  if (req.url === `/${BUNDLE_NAME}`) {
     const headers = new Headers();
     headers.set('content-type', 'text/javascript');
     headers.set('charset', 'utf-8');
