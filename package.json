@@ -1,6 +1,7 @@
 {
-  "name": "test",
+  "name": "zombo",
   "scripts": {
-    "compile": "./scripts/compile"
+    "compile": "./scripts/compile",
+    "start": "./scripts/start"
   }
 }
