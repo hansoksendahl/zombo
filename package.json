@@ -1,0 +1,6 @@
+{
+  "name": "test",
+  "scripts": {
+    "compile": "./scripts/compile"
+  }
+}

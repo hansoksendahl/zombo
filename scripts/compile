@@ -1,0 +1,1 @@
+deno bundle -c ./tsconfig.json ./src/main.ts ./lib/bundle.js
